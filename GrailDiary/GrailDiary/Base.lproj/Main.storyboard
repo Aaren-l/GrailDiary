@@ -71,11 +71,32 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Grail Diary" id="PKF-Ga-Csb"/>
+                    <navigationItem key="navigationItem" title="Grail Diary" id="PKF-Ga-Csb">
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="VO4-EI-OuB">
+                            <connections>
+                                <segue destination="GTF-Qw-77U" kind="presentation" identifier="AddPOIModalSegue" id="C3z-wd-08a"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="821.73913043478262" y="138.61607142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9mG-XP-fq4">
+            <objects>
+                <viewController id="GTF-Qw-77U" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="izi-eI-RY7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="E6k-bo-mNJ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M9E-xq-OAo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1520" y="139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UbQ-OJ-gwZ">
