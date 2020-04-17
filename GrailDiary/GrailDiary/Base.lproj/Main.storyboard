@@ -19,7 +19,7 @@
                                 <rect key="frame" x="-8" y="64" width="414" height="808"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="X0j-Zx-gLK">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="POICell" id="X0j-Zx-gLK">
                                         <rect key="frame" x="0.0" y="28" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="X0j-Zx-gLK" id="dbl-VB-5EM">
@@ -186,9 +186,8 @@
                                     <constraint firstAttribute="width" constant="150" id="o9b-2F-o9Z"/>
                                 </constraints>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Ik-lc-XPf">
-                                <rect key="frame" x="20" y="299" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Ik-lc-XPf">
+                                <rect key="frame" x="20" y="239" width="240" height="549"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -204,9 +203,12 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="INU-y2-SAz" firstAttribute="bottom" secondItem="1Ik-lc-XPf" secondAttribute="bottom" constant="20" id="Awj-Tr-EhN"/>
                             <constraint firstItem="G6l-Kr-Km9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6c6-E5-Wzc" secondAttribute="trailing" constant="8" id="B4e-DL-5RE"/>
                             <constraint firstItem="INU-y2-SAz" firstAttribute="trailing" secondItem="G6l-Kr-Km9" secondAttribute="trailing" constant="20" id="Kaq-C0-jJJ"/>
                             <constraint firstItem="vUz-71-A3t" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6c6-E5-Wzc" secondAttribute="trailing" constant="8" id="L5F-xZ-26Z"/>
+                            <constraint firstItem="1Ik-lc-XPf" firstAttribute="top" secondItem="1R0-kE-Ilw" secondAttribute="bottom" constant="8" id="LCy-hp-wSl"/>
+                            <constraint firstItem="1Ik-lc-XPf" firstAttribute="trailing" secondItem="vUz-71-A3t" secondAttribute="trailing" id="MR8-HS-yAh"/>
                             <constraint firstItem="6c6-E5-Wzc" firstAttribute="leading" secondItem="INU-y2-SAz" secondAttribute="leading" constant="20" id="Sjg-mb-HDR"/>
                             <constraint firstItem="1R0-kE-Ilw" firstAttribute="top" secondItem="6c6-E5-Wzc" secondAttribute="bottom" constant="40" id="VJo-rx-1j1"/>
                             <constraint firstItem="vUz-71-A3t" firstAttribute="top" secondItem="G6l-Kr-Km9" secondAttribute="bottom" constant="8" id="adQ-BE-LbN"/>
@@ -223,7 +225,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ED1-e6-Elt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2223.1884057971015" y="157.36607142857142"/>
+            <point key="canvasLocation" x="1519" y="-565"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="UbQ-OJ-gwZ">
