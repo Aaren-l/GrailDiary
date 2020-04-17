@@ -13,6 +13,7 @@
 		5C413D7024451A93004B18C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C413D6E24451A93004B18C1 /* Main.storyboard */; };
 		5C413D7224451A96004B18C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C413D7124451A96004B18C1 /* Assets.xcassets */; };
 		5C413D7524451A96004B18C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C413D7324451A96004B18C1 /* LaunchScreen.storyboard */; };
+		5C4326322449791C0044F618 /* Denver location Lambda.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5C4326312449791C0044F618 /* Denver location Lambda.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5C413D7124451A96004B18C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C413D7424451A96004B18C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C413D7624451A96004B18C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4326312449791C0044F618 /* Denver location Lambda.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Denver location Lambda.jpeg"; path = "../../../../Downloads/Denver location Lambda.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				5C413D6C24451A93004B18C1 /* POIsTableViewController.swift */,
 				5C413D6E24451A93004B18C1 /* Main.storyboard */,
 				5C413D7124451A96004B18C1 /* Assets.xcassets */,
+				5C4326312449791C0044F618 /* Denver location Lambda.jpeg */,
 				5C413D7324451A96004B18C1 /* LaunchScreen.storyboard */,
 				5C413D7624451A96004B18C1 /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C413D7524451A96004B18C1 /* LaunchScreen.storyboard in Resources */,
+				5C4326322449791C0044F618 /* Denver location Lambda.jpeg in Resources */,
 				5C413D7224451A96004B18C1 /* Assets.xcassets in Resources */,
 				5C413D7024451A93004B18C1 /* Main.storyboard in Resources */,
 			);
